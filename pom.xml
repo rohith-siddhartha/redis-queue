@@ -15,7 +15,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.example.QueueService</mainClass>
+              <mainClass>com.example.QueueServer</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -26,7 +26,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
-    <start-class>com.example.QueueService</start-class>
+    <start-class>com.example.QueueServer</start-class>
   </properties>
   <dependencies>
     <dependency>
