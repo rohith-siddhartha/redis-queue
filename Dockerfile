@@ -18,7 +18,7 @@ FROM openjdk:17-jdk-alpine AS run
 WORKDIR /
 
 # Copy the JAR file from the build stage into the container
-COPY --from=build /app/target/queue-service-1.0.0.jar .
+COPY --from=build /target/queue-service-1.0.0.jar .
 
 # Expose the port your application listens on
 EXPOSE 8080
